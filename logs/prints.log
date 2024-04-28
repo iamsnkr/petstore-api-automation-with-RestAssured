@@ -1,0 +1,54 @@
+13:20:07.191 [TestNG-test-Test-3] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:20:07.200 [TestNG-test-Test-3] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:20:07.251 [TestNG-test-Test-3] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:20:07.349 [TestNG-test-Test-1] INFO  api.test.UserTests - UserPayload : User [id=110926160, username=dwain.hyatt, firstName=Jerald, lastName=Leuschke, email=stacey.von@yahoo.com, password=tuqmlax7c8d, phone=321.282.9507, userStatus=0]
+13:20:07.350 [TestNG-test-Test-1] DEBUG api.test.UserTests - This is a Debug
+13:20:07.350 [TestNG-test-Test-1] INFO  api.test.UserTests - This is an Info
+13:20:07.351 [TestNG-test-Test-1] WARN  api.test.UserTests - This is a Warn
+13:20:07.351 [TestNG-test-Test-1] ERROR api.test.UserTests - This is an Error
+13:20:07.351 [TestNG-test-Test-1] FATAL api.test.UserTests - This is a Fatal
+13:20:07.425 [TestNG-test-Test-1] INFO  api.test.UserTests - =============BeforePostUser================
+13:20:08.024 [TestNG-test-Test-2] INFO  api.test.UserTests2 - UserPayload : User [id=630444575, username=stacey.weimann, firstName=Dick, lastName=Goodwin, email=lavonda.buckridge@yahoo.com, password=2oxjk60l6j94, phone=1-667-768-9137, userStatus=0]
+13:20:08.024 [TestNG-test-Test-2] DEBUG api.test.UserTests2 - This is a Debug
+13:20:08.025 [TestNG-test-Test-2] INFO  api.test.UserTests2 - This is an Info
+13:20:08.025 [TestNG-test-Test-2] WARN  api.test.UserTests2 - This is a Warn
+13:20:08.025 [TestNG-test-Test-2] ERROR api.test.UserTests2 - This is an Error
+13:20:08.025 [TestNG-test-Test-2] FATAL api.test.UserTests2 - This is a Fatal
+13:20:08.027 [TestNG-test-Test-2] INFO  api.test.UserTests2 - =============BeforePostUser================
+13:20:08.058 [TestNG-test-Test-2] INFO  api.test.UserTests2 - =============BeforetestGetUserByName================
+13:20:08.064 [TestNG-test-Test-2] INFO  api.test.UserTests2 - =============BeforeUpdateUser================
+13:20:08.070 [TestNG-test-Test-2] INFO  api.test.UserTests2 - =============BeforeDeleteUser================
+13:20:08.321 [TestNG-test-Test-3] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+13:20:08.533 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============BeforePostUser================
+13:20:12.988 [TestNG-test-Test-1] DEBUG api.test.UserTests - io.restassured.internal.ValidatableResponseImpl@2c0472f
+13:20:12.988 [TestNG-test-Test-3] DEBUG api.test.DataDrivenTests - io.restassured.internal.ValidatableResponseImpl@31fd2b9c
+13:20:12.989 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============AfterPostUser================
+13:20:12.989 [TestNG-test-Test-1] INFO  api.test.UserTests - =============AfterPostUser================
+13:20:13.001 [TestNG-test-Test-1] INFO  api.test.UserTests - =============BeforetestGetUserByName================
+13:20:13.002 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============BeforePostUser================
+13:20:15.419 [TestNG-test-Test-1] DEBUG api.test.UserTests - io.restassured.internal.ValidatableResponseImpl@43b706bc
+13:20:15.419 [TestNG-test-Test-1] INFO  api.test.UserTests - =============AftertestGetUserByName================
+13:20:15.421 [TestNG-test-Test-1] INFO  api.test.UserTests - =============BeforeUpdateUser================
+13:20:16.520 [TestNG-test-Test-3] DEBUG api.test.DataDrivenTests - io.restassured.internal.ValidatableResponseImpl@391fd0aa
+13:20:16.520 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============AfterPostUser================
+13:20:16.525 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============BeforePostUser================
+13:20:18.691 [TestNG-test-Test-3] DEBUG api.test.DataDrivenTests - io.restassured.internal.ValidatableResponseImpl@1ebc92fa
+13:20:18.691 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============AfterPostUser================
+13:20:18.704 [TestNG-test-Test-3] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+13:20:18.705 [TestNG-test-Test-3] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+13:20:18.708 [TestNG-test-Test-3] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+13:20:18.733 [TestNG-test-Test-3] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+13:20:18.794 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============BeforeDeleteUser================
+13:20:22.558 [TestNG-test-Test-3] DEBUG api.test.DataDrivenTests - io.restassured.internal.ValidatableResponseImpl@4a757d4b
+13:20:22.558 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============AfterDeleteUser================
+13:20:22.563 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============BeforeDeleteUser================
+13:20:24.097 [TestNG-test-Test-3] DEBUG api.test.DataDrivenTests - io.restassured.internal.ValidatableResponseImpl@4c14a505
+13:20:24.098 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============AfterDeleteUser================
+13:20:24.104 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============BeforeDeleteUser================
+13:20:24.607 [TestNG-test-Test-1] DEBUG api.test.UserTests - io.restassured.internal.ValidatableResponseImpl@3cf53884
+13:20:24.607 [TestNG-test-Test-1] INFO  api.test.UserTests - =============AfterUpdateUser================
+13:20:24.610 [TestNG-test-Test-1] INFO  api.test.UserTests - =============BeforeDeleteUser================
+13:20:26.349 [TestNG-test-Test-1] DEBUG api.test.UserTests - io.restassured.internal.ValidatableResponseImpl@11e4c6c0
+13:20:26.349 [TestNG-test-Test-1] INFO  api.test.UserTests - =============AfterDeleteUser================
+13:20:28.106 [TestNG-test-Test-3] DEBUG api.test.DataDrivenTests - io.restassured.internal.ValidatableResponseImpl@24cc1820
+13:20:28.106 [TestNG-test-Test-3] INFO  api.test.DataDrivenTests - =============AfterDeleteUser================

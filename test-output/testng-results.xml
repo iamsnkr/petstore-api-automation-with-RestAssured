@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="10" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-28T13:20:06 IST" name="Suite" finished-at="2024-04-28T13:20:28 IST" duration-ms="21415">
+    <groups>
+    </groups>
+    <test started-at="2024-04-28T13:20:06 IST" name="Test" finished-at="2024-04-28T13:20:28 IST" duration-ms="21415">
+      <class name="api.test.DataDrivenTests">
+        <test-method signature="testPostUser(java.util.Map)[pri:1, instance:api.test.DataDrivenTests@4602c2a9]" started-at="2024-04-28T13:20:08 IST" name="testPostUser" data-provider="userdataprovider" finished-at="2024-04-28T13:20:12 IST" duration-ms="4458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=John, lastName=Canedy, password=12345678, phone=999911921, userName=JohnCanedy, userID=1010, email=john.canedy@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.util.Map)[pri:1, instance:api.test.DataDrivenTests@4602c2a9]" started-at="2024-04-28T13:20:13 IST" name="testPostUser" data-provider="userdataprovider" finished-at="2024-04-28T13:20:16 IST" duration-ms="3520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Kim, lastName=Kom, password=12345679, phone=999911921, userName=KimKom, userID=1020, email=kim.kom@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.util.Map)[pri:1, instance:api.test.DataDrivenTests@4602c2a9]" started-at="2024-04-28T13:20:16 IST" name="testPostUser" data-provider="userdataprovider" finished-at="2024-04-28T13:20:18 IST" duration-ms="2168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Smith, lastName=Steve, password=12345680, phone=999911921, userName=SmithSteve, userID=1030, email=smith.steve@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testDeleteUserByName(java.util.Map)[pri:4, instance:api.test.DataDrivenTests@4602c2a9]" started-at="2024-04-28T13:20:18 IST" name="testDeleteUserByName" data-provider="userdataprovider" finished-at="2024-04-28T13:20:22 IST" duration-ms="3767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=John, lastName=Canedy, password=12345678, phone=999911921, userName=JohnCanedy, userID=1010, email=john.canedy@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method signature="testDeleteUserByName(java.util.Map)[pri:4, instance:api.test.DataDrivenTests@4602c2a9]" started-at="2024-04-28T13:20:22 IST" name="testDeleteUserByName" data-provider="userdataprovider" finished-at="2024-04-28T13:20:24 IST" duration-ms="1540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Kim, lastName=Kom, password=12345679, phone=999911921, userName=KimKom, userID=1020, email=kim.kom@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+        <test-method signature="testDeleteUserByName(java.util.Map)[pri:4, instance:api.test.DataDrivenTests@4602c2a9]" started-at="2024-04-28T13:20:24 IST" name="testDeleteUserByName" data-provider="userdataprovider" finished-at="2024-04-28T13:20:28 IST" duration-ms="4003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Smith, lastName=Steve, password=12345680, phone=999911921, userName=SmithSteve, userID=1030, email=smith.steve@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.DataDrivenTests -->
+      <class name="api.test.UserTests2">
+        <test-method is-config="true" signature="setupDate()[pri:0, instance:api.test.UserTests2@6a62689d]" started-at="2024-04-28T13:20:06 IST" name="setupDate" finished-at="2024-04-28T13:20:08 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDate -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests2@6a62689d]" started-at="2024-04-28T13:20:08 IST" name="testPostUser" finished-at="2024-04-28T13:20:08 IST" duration-ms="7" status="FAIL">
+          <exception class="java.util.MissingResourceException">
+            <message>
+              <![CDATA[Can't find bundle for base name routes, locale en_IN]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.MissingResourceException: Can't find bundle for base name routes, locale en_IN
+at java.base/java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:2045)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1683)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1586)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1549)
+at java.base/java.util.ResourceBundle.getBundle(ResourceBundle.java:858)
+at api.endpoints.UserEndPoint2.getURL(UserEndPoint2.java:27)
+at api.endpoints.UserEndPoint2.creatUser(UserEndPoint2.java:32)
+at api.test.UserTests2.testPostUser(UserTests2.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.MissingResourceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests2@6a62689d]" started-at="2024-04-28T13:20:08 IST" name="testGetUserByName" finished-at="2024-04-28T13:20:08 IST" duration-ms="2" status="FAIL">
+          <exception class="java.util.MissingResourceException">
+            <message>
+              <![CDATA[Can't find bundle for base name routes, locale en_IN]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.MissingResourceException: Can't find bundle for base name routes, locale en_IN
+at java.base/java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:2045)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1683)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1586)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1549)
+at java.base/java.util.ResourceBundle.getBundle(ResourceBundle.java:858)
+at api.endpoints.UserEndPoint2.getURL(UserEndPoint2.java:27)
+at api.endpoints.UserEndPoint2.readUser(UserEndPoint2.java:47)
+at api.test.UserTests2.testGetUserByName(UserTests2.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.MissingResourceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTests2@6a62689d]" started-at="2024-04-28T13:20:08 IST" name="testUpdateUser" finished-at="2024-04-28T13:20:08 IST" duration-ms="3" status="FAIL">
+          <exception class="java.util.MissingResourceException">
+            <message>
+              <![CDATA[Can't find bundle for base name routes, locale en_IN]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.MissingResourceException: Can't find bundle for base name routes, locale en_IN
+at java.base/java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:2045)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1683)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1586)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1549)
+at java.base/java.util.ResourceBundle.getBundle(ResourceBundle.java:858)
+at api.endpoints.UserEndPoint2.getURL(UserEndPoint2.java:27)
+at api.endpoints.UserEndPoint2.updateUser(UserEndPoint2.java:58)
+at api.test.UserTests2.testUpdateUser(UserTests2.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.MissingResourceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests2@6a62689d]" started-at="2024-04-28T13:20:08 IST" name="testDeleteUserByName" finished-at="2024-04-28T13:20:08 IST" duration-ms="4" status="FAIL">
+          <exception class="java.util.MissingResourceException">
+            <message>
+              <![CDATA[Can't find bundle for base name routes, locale en_IN]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.MissingResourceException: Can't find bundle for base name routes, locale en_IN
+at java.base/java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:2045)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1683)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1586)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1549)
+at java.base/java.util.ResourceBundle.getBundle(ResourceBundle.java:858)
+at api.endpoints.UserEndPoint2.getURL(UserEndPoint2.java:27)
+at api.endpoints.UserEndPoint2.deleteUser(UserEndPoint2.java:71)
+at api.test.UserTests2.testDeleteUserByName(UserTests2.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.MissingResourceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserTests2 -->
+      <class name="api.test.UserTests">
+        <test-method is-config="true" signature="setupDate()[pri:0, instance:api.test.UserTests@172ca72b]" started-at="2024-04-28T13:20:06 IST" name="setupDate" finished-at="2024-04-28T13:20:07 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDate -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests@172ca72b]" started-at="2024-04-28T13:20:07 IST" name="testPostUser" finished-at="2024-04-28T13:20:12 IST" duration-ms="5603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests@172ca72b]" started-at="2024-04-28T13:20:12 IST" name="testGetUserByName" finished-at="2024-04-28T13:20:15 IST" duration-ms="2427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTests@172ca72b]" started-at="2024-04-28T13:20:15 IST" name="testUpdateUser" finished-at="2024-04-28T13:20:24 IST" duration-ms="9187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests@172ca72b]" started-at="2024-04-28T13:20:24 IST" name="testDeleteUserByName" finished-at="2024-04-28T13:20:26 IST" duration-ms="1740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
